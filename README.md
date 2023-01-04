@@ -23,10 +23,10 @@ Will also add features to play songs online from youtube, spotify and many more 
 
 <h2 align="center">Screenshots</h2>
 
-<div align="center" style="width:100%;display:flex;justify-content:space-between;">
-<img width="20%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/MainActivity.jpg" align="center" alt="screenshot" />
-<img width="20%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/PlaySong.jpg" align="center" alt="screenshot" />
-<img width="20%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/PlaySong2.jpg" align="center" alt="screenshot" />
+<div align="center"display:flex;justify-content:space-between;">
+<img width="10%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/MainActivity.jpg" align="center" alt="screenshot" />
+<img width="10%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/PlaySong.jpg" align="center" alt="screenshot" />
+<img width="10%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/PlaySong2.jpg" align="center" alt="screenshot" />
 </div>
 
 ---
