@@ -16,27 +16,18 @@ Will also add features to play songs online from youtube, spotify and many more 
     Play Local / Downloaded Songs Support :open_file_folder: <br>
     High Quality mp3 :fire:<br>
     No Ads :no_entry_sign:<br> 
-    Will be adding more features in future :art: <br>
+    Will be adding more features in future :art: <br></p>
  
-
 ---
 
 <h2 align="center">Screenshots</h2>
 
 <div align="center"display:flex;justify-content:space-between;">
-<img width="10%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/MainActivity.jpg" align="center" alt="screenshot" />
-<img width="10%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/PlaySong.jpg" align="center" alt="screenshot" />
-<img width="10%" src="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/PlaySong2.jpg" align="center" alt="screenshot" />
+<img width="30%" src="https://github.com/its-red-eagle/iMusic/blob/master/README-FILES/MainActivity.jpg" align="center" alt="screenshot" />
+<img width="30%" src="https://github.com/its-red-eagle/iMusic/blob/master/README-FILES/PlaySong.jpg" align="center" alt="screenshot" />
+<img width="30%" src="https://github.com/its-red-eagle/iMusic/blob/master/README-FILES/PlaySong2.jpg" align="center" alt="screenshot" />
 </div>
-                                                                                                                                       
-                                                                                                                                       <h3 align="center">Screenshots</h3>
-
-<div align="center" style="width:100%;display:flex;justify-content:space-between;">
-<img width="32%" src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg" align="center" alt="screenshot" />
-<img width="32%" src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg" align="center" alt="screenshot" />
-<img width="32%" src="https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg" align="center" alt="screenshot" />
-</div>
-
+                                                                                                                                     
 ---
 
   <div><h2> Now it's time to install and play songs and music using this app</h2>
