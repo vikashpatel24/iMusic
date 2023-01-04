@@ -38,14 +38,14 @@ public class PlaySong extends AppCompatActivity {
     }
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        setContentView((int) R.layout.activity_play_song);
-        textView = (TextView) findViewById(R.id.textView);
-        currentDuration = (TextView) findViewById(R.id.currentDuration);
-        totalDuration = (TextView) findViewById(R.id.totalDuration);
-        pause = (ImageView) findViewById(R.id.pause);
-        previous = (ImageView) findViewById(R.id.previous);
-        next = (ImageView) findViewById(R.id.next);
-        seekBar = (SeekBar) findViewById(R.id.seekBar);
+        setContentView(R.layout.activity_play_song);
+        textView = findViewById(R.id.textView);
+        currentDuration = findViewById(R.id.currentDuration);
+        totalDuration = findViewById(R.id.totalDuration);
+        pause = findViewById(R.id.pause);
+        previous = findViewById(R.id.previous);
+        next = findViewById(R.id.next);
+        seekBar = findViewById(R.id.seekBar);
         Intent intent = getIntent();
         songs = (ArrayList) intent.getExtras().getParcelableArrayList("songList");
         String stringExtra = intent.getStringExtra("currentSong");
@@ -77,7 +77,7 @@ public class PlaySong extends AppCompatActivity {
                 while (!stopThread) {
                     try {
                         if (mediaPlayer != null) {
-                            long currentPosition = (long) mediaPlayer.getCurrentPosition();
+                            long currentPosition = mediaPlayer.getCurrentPosition();
                             final String format = String.format("%02d:%02d", Long.valueOf(TimeUnit.MILLISECONDS.toMinutes(currentPosition)), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(currentPosition) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(currentPosition))));
                             runOnUiThread(new Runnable() {
                                 public void run() {
@@ -123,7 +123,7 @@ public class PlaySong extends AppCompatActivity {
                 seekBar.setMax(mediaPlayer.getDuration());
                 textContent = songs.get(position).getName();
                 textView.setText(textContent);
-                long duration = (long) mediaPlayer.getDuration();
+                long duration = mediaPlayer.getDuration();
                 totalDuration.setText(String.format("%02d:%02d", Long.valueOf(TimeUnit.MILLISECONDS.toMinutes(duration)), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(duration) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duration)))));
             }
         });
@@ -143,11 +143,11 @@ public class PlaySong extends AppCompatActivity {
                 seekBar.setMax(mediaPlayer.getDuration());
                 textContent = songs.get(position).getName();
                 textView.setText(textContent);
-                long duration = (long) mediaPlayer.getDuration();
+                long duration = mediaPlayer.getDuration();
                 totalDuration.setText(String.format("%02d:%02d", Long.valueOf(TimeUnit.MILLISECONDS.toMinutes(duration)), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(duration) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duration)))));
             }
         });
-        long duration = (long) mediaPlayer.getDuration();
+        long duration = mediaPlayer.getDuration();
         totalDuration.setText(String.format("%02d:%02d", Long.valueOf(TimeUnit.MILLISECONDS.toMinutes(duration)), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(duration) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duration)))));
         updateSeek.start();
     }

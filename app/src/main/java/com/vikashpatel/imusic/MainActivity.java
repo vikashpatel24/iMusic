@@ -3,6 +3,7 @@ package com.vikashpatel.imusic;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -23,29 +24,36 @@ import java.io.File;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         ListView listView;
+        TextView nosong,suggest;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.listView);
+        nosong = findViewById(R.id.nosong);
+        suggest = findViewById(R.id.suggest);
         Dexter.withContext(this)
                 .withPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
                 .withListener(new PermissionListener() {
                     @Override
                     public void onPermissionGranted(PermissionGrantedResponse permissionGrantedResponse) {
-
-//                        Toast.makeText(MainActivity.this, "Runtime permission given", Toast.LENGTH_SHORT).show();
                         ArrayList<File> mySongs = fetchSongs(Environment.getExternalStorageDirectory());
                         String[] items = new String[mySongs.size()];
                         for (int i = 0; i < mySongs.size(); i++) {
                             items[i] = mySongs.get(i).getName().replace(".mp3", "");
                         }
+                        if(mySongs.size()== 0)
+                        {
+                            nosong.setText("No Songs Found!");
+                            suggest.setText(" Please save some offline songs to your phone to enjoy music.");
+                        }
                         ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, items) {
                             @Override
                             public View getView ( int position, View convertView, ViewGroup parent){
                                 View view = super.getView(position, convertView, parent);
-                                TextView tv = (TextView) view.findViewById(android.R.id.text1);
+                                TextView tv = view.findViewById(android.R.id.text1);
                                 tv.setTextColor(Color.BLACK);
                                 return view;
                             }
