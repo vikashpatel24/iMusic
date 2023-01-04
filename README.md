@@ -34,9 +34,7 @@ Will also add features to play songs online from youtube, spotify and many more 
   <div><h2> Now it's time to install and play songs and music using this app</h2>
 <h3> iMusic App Link : <a href="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/iMusic.apk"><img src="https://github.com/its-red-eagle/iMusic/blob/master/app/src/main/res/drawable/music_icon.png" width="25px"height="25px" align="absmiddle"/> iMusic.apk</a></h3></div>
 <br>
-<h3><b>These are screenshots of iMusic App :<b></h3>
-  <p align="center" style="align-items:center"><a href="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/iMusic.apk"><img width="100" height="100" src="https://github.com/its-red-eagle/iMusic/blob/master/app/src/main/res/drawable/music_icon.png"></a>
-     <p align="center" style="align-items:center"><a href="https://github.com/gokadzev/Musify/releases" rel="GitHub Releases"><img width="100" height="100" src="https://telegra.ph/file/21bb2cc648561f192cea4.png"></a><a href="https://apt.izzysoft.de/fdroid/index/apk/com.gokadzev.musify" rel="IzzySoft"><img width="250" src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"></a></p>
+  <p align="center" style="align-items:center"><a href="https://github.com/its-red-eagle/iMusic/blob/master/README%20FILES/iMusic.apk"><img width="100" height="100" src="https://github.com/its-red-eagle/iMusic/blob/master/app/src/main/res/drawable/music_icon.png"></a><a href="https://github.com/its-red-eagle/iMusic/releases" rel="GitHub Releases"><img width="100" height="100" src="https://telegra.ph/file/21bb2cc648561f192cea4.png"></a></p>
 
 
 ---
