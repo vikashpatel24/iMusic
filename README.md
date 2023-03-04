@@ -31,7 +31,7 @@ Will also add features to play songs online from youtube, spotify and many more 
 ---
 
   <div><h2> Now it's time to install and play songs and music using this app</h2>
-<h3> iMusic App Link : <a href="https://github.com/its-vikash/iMusic/blob/master/README%20FILES/iMusic.apk"><img src="https://github.com/its-vikash/iMusic/blob/master/app/src/main/res/drawable/music_icon.png" width="25px"height="25px" align="absmiddle"/> iMusic.apk</a></h3></div>
+<h3> iMusic App Link : <a href="https://github.com/its-vikash/iMusic/blob/master/README-FILES/iMusic.apk"><img src="https://github.com/its-vikash/iMusic/blob/master/app/src/main/res/drawable/music_icon.png" width="25px"height="25px" align="absmiddle"/> iMusic.apk</a></h3></div>
 <br>
   <p align="center" style="align-items:center"><a href="https://github.com/its-vikash/iMusic/blob/master/README%20FILES/iMusic.apk"><img width="100" height="100" src="https://github.com/its-vikash/iMusic/blob/master/app/src/main/res/drawable/music_icon.png"></a><a href="https://github.com/its-vikash/iMusic/releases" rel="GitHub Releases"><img width="100" height="100" src="https://telegra.ph/file/21bb2cc648561f192cea4.png"></a></p>
 
